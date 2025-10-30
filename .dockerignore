@@ -1,0 +1,22 @@
+# Git
+.git
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Envs
+.venv
+.env
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Notebooks
+*.ipynb_checkpoints
+
+# Misc
+.DS_Store
