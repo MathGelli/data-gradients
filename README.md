@@ -451,3 +451,11 @@ Common Datasets
 ## License
 
 This project is released under the [Apache 2.0 license](https://dgreports.deci.ai/detection/LICENSE.md).
+
+### Installation and how to run tests
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+python -m pip install -U pip
+pip install -r requirements.txt
+pytest -q
+```
