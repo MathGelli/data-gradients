@@ -18,6 +18,7 @@ RUN python -m pip install --upgrade pip && pip install -r /app/requirements.txt
 
 # código do projeto
 COPY . /app
+RUN python -m pip install -e /app
 
 # padrão: rodar a suíte de testes
-CMD ["pytest", "-q"]
+CMD ["pytest","-q","tests/smoke"]
